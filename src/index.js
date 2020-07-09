@@ -36,16 +36,22 @@ var varMenu = document.getElementById("navMenu");
 var varQuienesSomos = document.getElementById("navQuienesSomos");
 var varContactanos = document.getElementById("navContactanos");
 var varRegistro = document.getElementById("navRegistro");
-varInicio.onclick = function(){
+
+varInicio.onclick = irAlInicio();
+varMenu.onclick = irAlMenu();
+varQuienesSomos.onclick  = irAlQuienesSomos();
+varContactanos.onclick = irAlContactanos();
+varRegistro.onclick = irARegistrarse();
+
+
+function irAlInicio(){
     ReactDOM.render(
         <React.StrictMode>
             <Inicio />
         </React.StrictMode>,
         document.getElementById('root')
-    );
-};
-
-varMenu.onclick = function(){
+)};
+function irAlMenu(){
     ReactDOM.render(
         <React.StrictMode>
             <Menu />
@@ -53,7 +59,7 @@ varMenu.onclick = function(){
         document.getElementById('root')
     );
 };
-varQuienesSomos.onclick  = function(){
+function irAlQuienesSomos(){
     ReactDOM.render(
         <React.StrictMode>
             <QuienesSomos />
@@ -61,7 +67,7 @@ varQuienesSomos.onclick  = function(){
         document.getElementById('root')
     );
 };
-varContactanos.onclick = function () {
+function irAlContactanos () {
     ReactDOM.render(
         <React.StrictMode>
             <Contactanos />
@@ -69,7 +75,7 @@ varContactanos.onclick = function () {
         document.getElementById('root')
     );
 };
-varRegistro.onclick = function(){
+function irARegistrarse(){
     ReactDOM.render(
         <React.StrictMode>
             <Registro />
@@ -77,7 +83,6 @@ varRegistro.onclick = function(){
         document.getElementById('root')
     );
 }
-
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
