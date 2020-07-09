@@ -1,0 +1,50 @@
+.fondoComida{
+    background: url('https://i.ibb.co/8XwhfTF/fondocomida.jpg');
+    height: 737px;
+}
+
+.btnRemover{
+    padding: 5%;
+}
+.bordes{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.fondoNegro{
+    background-color: black;
+    
+}
+.datosFactura{
+    background-color: #414346;
+    border-radius: 10% 10%;
+}
+.factura{
+    background-color: rgb(191, 202, 217);
+    border-radius: 10% 10%;
+}
+.elementoLista{
+    text-align: center;
+    background-color: rgba(191, 202, 217, 0.2);
+    
+}
+.collection-item{
+    padding: 2%;
+    transition: background-color 0.5s, padding 0.2s;
+}
+.collection-item:hover{
+    background-color: rgba(191, 202, 217, 1);
+    cursor: pointer;
+}
+.avisoForm{
+    padding: 5%;
+    margin: 5%;
+    border: solid 1px red;
+}
+.btnComprar{
+    margin-bottom: 3%;
+    background-color: rgb(53, 192, 106);
+}
+.container-pequeño{
+    margin: 5%;
+
+}

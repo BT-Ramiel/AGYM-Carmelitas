@@ -8,7 +8,7 @@ class Inicio extends  Component{
     componentDidMount(){
         
           function domEvent() {
-            console.log('aiuda');
+            
             var elems = document.querySelectorAll('.carousel');
             var instances = M.Carousel.init(elems, {});
             var instance = M.Carousel.init({
