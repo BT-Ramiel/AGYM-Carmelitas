@@ -4,23 +4,34 @@ import './PieDePagina.css';
 class PieDePagina extends Component{
     render() {
         return(
+          <div>
         <footer class="page-footer">
+          <div className="tituloConImagen">
           <div class="container">
             <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              <div class="col s12">
+                <h4>Contactos</h4>
               </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                </ul>
+              <div class="col s12">
+                <h5>Celular: <a href="tel:81380937">+505 81380937</a></h5>
+              </div>
+              <div class="col s12">
+                <h5>Redes Sociales</h5>
+              </div>
+              <div class="col s4"> 
+              <a href="facebook.com"><div className="logoFb">Síguenos en facebook!</div> </a>
+              </div>
+              <div className="col s4">
+              <a href="instagram.com"><div className="logoIg">Síguenos en Instagram!</div></a>
+              </div>
+              <div className="col s4">
+              <a href="instagram.com"><div className="logoTw">Síguenos en Twitter!</div></a>
               </div>
             </div>
+            <div class ="col s12">
+            <h4>Correo: <a href="mailto::agarciadare@gmail.com">agarciadarce@gmail.com</a></h4>
+            </div>
+          </div>
           </div>
           <div class="footer-copyright">
             <div class="container">
@@ -29,6 +40,7 @@ class PieDePagina extends Component{
             </div>
           </div>
         </footer>
+        </div>
         );
     }
 }
