@@ -7,7 +7,7 @@ class Navegacion extends Component{
         return(
             <nav>
                 <div className="nav-wrapper">
-                    <a href="#" className="material-icons navAcceder right iconoNav">shopping_cart</a>
+                    <a href="#" id="carrito" className="material-icons navAcceder right iconoNav">shopping_cart</a>
                     <ul className="navElementos">
                         <li className="elementNav"><a id="navInicio" href="#">Inicio</a></li>
                         <li className="elementNav"><a id="navMenu" href="#">Menú</a></li>

@@ -12,7 +12,7 @@ import QuienesSomos from "./components/quienes-somos/QuienesSomos"
 import Contactanos from "./components/contactanos/Contactanos";
 import Registro from "./components/registro/Registro";
 import * as serviceWorker from './serviceWorker';
-
+import Carrito from "./components/carrito/Carrito";
 ReactDOM.render(
   <React.StrictMode>
     <Inicio />
@@ -36,6 +36,7 @@ var varMenu = document.getElementById("navMenu");
 var varQuienesSomos = document.getElementById("navQuienesSomos");
 var varContactanos = document.getElementById("navContactanos");
 var varRegistro = document.getElementById("navRegistro");
+var varCarrito = document.getElementById("carrito");
 varInicio.onclick = function(){
     ReactDOM.render(
         <React.StrictMode>
@@ -73,6 +74,14 @@ varRegistro.onclick = function(){
     ReactDOM.render(
         <React.StrictMode>
             <Registro />
+        </React.StrictMode>,
+        document.getElementById('root')
+    );
+}
+varCarrito.onclick = function () {
+    ReactDOM.render(
+        <React.StrictMode>
+            <Carrito/>
         </React.StrictMode>,
         document.getElementById('root')
     );

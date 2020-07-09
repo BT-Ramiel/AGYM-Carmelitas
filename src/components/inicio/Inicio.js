@@ -6,15 +6,22 @@ import M from 'materialize-css'
 import Producto from './producto/Producto'
 class Inicio extends  Component{
     componentDidMount(){
-        var instance;
-        document.addEventListener('DOMContentLoaded', function() {
+        
+          function domEvent() {
+            console.log('aiuda');
             var elems = document.querySelectorAll('.carousel');
             var instances = M.Carousel.init(elems, {});
-            instance = M.Carousel.init({
+            var instance = M.Carousel.init({
                 fullWidth: true
               });
-          });
+            }
+            
+            document.addEventListener('DOMContentLoaded', domEvent);
+            document.addEventListener('DOMSubtreeModified', domEvent);
+            
+        
     }
+
     render() {
         return(
             <div id="primary">
