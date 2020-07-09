@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import './PieDePagina.css';
+import logoCarmelitas from '../../img/logoCarmelitas.png'
 
 class PieDePagina extends Component{
     render() {
@@ -34,9 +35,8 @@ class PieDePagina extends Component{
           </div>
           </div>
           <div class="footer-copyright">
-            <div class="container">
-            © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <div class="container center-align">
+            <img src={logoCarmelitas} width="150px"className="logoCC"/>
             </div>
           </div>
         </footer>

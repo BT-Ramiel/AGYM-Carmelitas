@@ -28,6 +28,7 @@ footer{
 }
 .logoFb:hover{
     background-color: rgb(9, 94, 221);
+    border: 3px solid #bfcad9;
 }
 .logoIg{
     
@@ -44,6 +45,7 @@ footer{
 }
 .logoIg:hover{
     background-color: rgb(237, 131, 246);
+    border: 3px solid #bfcad9;
 }
 .logoTw{
     
@@ -60,4 +62,18 @@ footer{
 }
 .logoTw:hover{
     background-color: rgb(118, 201, 226);
+    border: 3px solid #bfcad9;
+}
+.logoCC{
+    border-radius: 25%;
+    transition: all 0.5s;
+}
+.logoCC:hover{
+    border: 3px solid #414346;
+    cursor: pointer;
+}
+.footer-copyright{
+    background: rgb(115,67,39);
+    background: linear-gradient(0deg, rgba(115,67,39,1) 0%, rgba(0,0,0,1) 100%);
+
 }

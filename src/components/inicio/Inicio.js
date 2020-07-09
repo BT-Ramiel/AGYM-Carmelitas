@@ -5,7 +5,7 @@ class Inicio extends  Component{
     render() {
         return(
             <div className="container">
-                <h1>Este es la parte de Inicio</h1>
+                
             </div>
 
         )
