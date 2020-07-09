@@ -1,3 +1,26 @@
-.navegacion{
-    background-color: #61dafb;
+.nav-wrapper{
+    background-color: #414346;
+    color: #ebf2f2;
+}
+div > ul{
+    width: 90%;
+}
+.elementNav{
+    width: 20%;
+    text-align: center;
+}
+.iconoNav{
+    margin-top: 20px;
+    width: 10%;
+    text-align: center;
+}
+*{
+    font-family: 'Lato', sans-serif;
+}
+.navAcceder a{
+    background-color: #000000;
+    color: #f28705;
+}
+.navAcceder a:hover{
+    background-color: #2e2e2f;
 }
