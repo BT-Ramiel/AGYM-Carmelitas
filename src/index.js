@@ -15,7 +15,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Inicio />
   </React.StrictMode>,
   document.getElementById('root')
 );
@@ -24,6 +24,12 @@ ReactDOM.render(
         <Navegacion/>
     </React.StrictMode>,
     document.getElementById('navegacion')
+);
+ReactDOM.render(
+    <React.StrictMode>
+        <PieDePagina/>
+    </React.StrictMode>,
+    document.getElementById('pie-pagina')
 );
 var varInicio = document.getElementById("navInicio");
 var varMenu = document.getElementById("navMenu");
@@ -38,6 +44,7 @@ varInicio.onclick = function(){
         document.getElementById('root')
     );
 };
+
 varMenu.onclick = function(){
     ReactDOM.render(
         <React.StrictMode>
