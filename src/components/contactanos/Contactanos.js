@@ -1,11 +1,13 @@
 import React,{Component} from 'react';
 import './Contactanos.css';
-
+import 'materialize-css/dist/css/materialize.min.css'
+import M from 'materialize-css'
 class Contactanos extends  Component{
+
     render() {
-        const altura = window.innerHeight - 64;
+        
         return(
-            <div className="mainContainer" style={{height:altura +'px'}}>
+            <div className="mainContainerContactanos">
                 <p id="contactanos"><i class="medium material-icons">mail</i> Contáctanos</p>
                 <div class="input-field col s12">
                     <input id="email" type="email" class="validate"></input>
@@ -19,11 +21,12 @@ class Contactanos extends  Component{
                     <textarea id="textarea1" class="materialize-textarea" style={{height: 200+'px', 'max-height':200+'px'}}></textarea>
                     <label for="textarea1">Mensaje</label>
                 </div>
-                <a id='enviarMensaje' href="#">
+                <div id='enviarMensaje'>
                     <p>
-                        Enviar mensajes
+                    Enviar Mensaje
                     </p>
-                </a>
+                </div>
+                
             </div>
             )
     };

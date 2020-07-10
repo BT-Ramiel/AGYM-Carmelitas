@@ -50,10 +50,10 @@ class Registro extends  Component{
         }
     }
     render() {
-        const altura = window.innerHeight - 64;
+        
         return(
             // fondo declarado en inicio.css
-            <div className="fondoGG" style={{height:altura +'px'}}>
+            <div className="fondoGG">
             <div className="container">
             <div className="row">
             <div className ="col s12 m6">
