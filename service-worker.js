@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/AGYM-Carmelitas/precache-manifest.2a5f5b6eda1f615b0edd2e443e94b63b.js"
+  "/AGYM-Carmelitas/precache-manifest.12f5fd311f6fc10a18113bcedc05333b.js"
 );
 
 self.addEventListener('message', (event) => {

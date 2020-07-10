@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/AGYM-Carmelitas/static/css/main.fc94c6a4.chunk.css",
-    "main.js": "/AGYM-Carmelitas/static/js/main.a22160e4.chunk.js",
-    "main.js.map": "/AGYM-Carmelitas/static/js/main.a22160e4.chunk.js.map",
+    "main.css": "/AGYM-Carmelitas/static/css/main.392454c5.chunk.css",
+    "main.js": "/AGYM-Carmelitas/static/js/main.85ebe5c8.chunk.js",
+    "main.js.map": "/AGYM-Carmelitas/static/js/main.85ebe5c8.chunk.js.map",
     "runtime-main.js": "/AGYM-Carmelitas/static/js/runtime-main.01890a5e.js",
     "runtime-main.js.map": "/AGYM-Carmelitas/static/js/runtime-main.01890a5e.js.map",
     "static/css/2.5a510433.chunk.css": "/AGYM-Carmelitas/static/css/2.5a510433.chunk.css",
     "static/js/2.20012692.chunk.js": "/AGYM-Carmelitas/static/js/2.20012692.chunk.js",
     "static/js/2.20012692.chunk.js.map": "/AGYM-Carmelitas/static/js/2.20012692.chunk.js.map",
     "index.html": "/AGYM-Carmelitas/index.html",
-    "precache-manifest.2a5f5b6eda1f615b0edd2e443e94b63b.js": "/AGYM-Carmelitas/precache-manifest.2a5f5b6eda1f615b0edd2e443e94b63b.js",
+    "precache-manifest.12f5fd311f6fc10a18113bcedc05333b.js": "/AGYM-Carmelitas/precache-manifest.12f5fd311f6fc10a18113bcedc05333b.js",
     "service-worker.js": "/AGYM-Carmelitas/service-worker.js",
     "static/css/2.5a510433.chunk.css.map": "/AGYM-Carmelitas/static/css/2.5a510433.chunk.css.map",
-    "static/css/main.fc94c6a4.chunk.css.map": "/AGYM-Carmelitas/static/css/main.fc94c6a4.chunk.css.map",
+    "static/css/main.392454c5.chunk.css.map": "/AGYM-Carmelitas/static/css/main.392454c5.chunk.css.map",
     "static/js/2.20012692.chunk.js.LICENSE.txt": "/AGYM-Carmelitas/static/js/2.20012692.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/AGYM-Carmelitas/static/media/logo.5d5d9eef.svg",
     "static/media/logoCarmelitas.png": "/AGYM-Carmelitas/static/media/logoCarmelitas.f06d27be.png"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.01890a5e.js",
     "static/css/2.5a510433.chunk.css",
     "static/js/2.20012692.chunk.js",
-    "static/css/main.fc94c6a4.chunk.css",
-    "static/js/main.a22160e4.chunk.js"
+    "static/css/main.392454c5.chunk.css",
+    "static/js/main.85ebe5c8.chunk.js"
   ]
 }

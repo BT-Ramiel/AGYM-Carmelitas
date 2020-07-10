@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd7a38c7157f4990133d5a560232942b",
+    "revision": "e5187749b67860c63ec5a6c5eedf1e1a",
     "url": "/AGYM-Carmelitas/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AGYM-Carmelitas/static/css/2.5a510433.chunk.css"
   },
   {
-    "revision": "31d057c008dc34546142",
-    "url": "/AGYM-Carmelitas/static/css/main.fc94c6a4.chunk.css"
+    "revision": "10db2746d7ad987f1cf8",
+    "url": "/AGYM-Carmelitas/static/css/main.392454c5.chunk.css"
   },
   {
     "revision": "64bdf78f91b72d1d28b0",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AGYM-Carmelitas/static/js/2.20012692.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "31d057c008dc34546142",
-    "url": "/AGYM-Carmelitas/static/js/main.a22160e4.chunk.js"
+    "revision": "10db2746d7ad987f1cf8",
+    "url": "/AGYM-Carmelitas/static/js/main.85ebe5c8.chunk.js"
   },
   {
     "revision": "2d664707202a83ad494f",
