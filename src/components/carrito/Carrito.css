@@ -16,11 +16,11 @@
 }
 .datosFactura{
     background-color: #414346;
-    border-radius: 10% 10%;
+    
 }
 .factura{
     background-color: rgb(191, 202, 217);
-    border-radius: 10% 10%;
+    
 }
 .elementoLista{
     text-align: center;
@@ -47,4 +47,20 @@
 .container-pequeño{
     margin: 5%;
 
+}
+
+.input-field input:focus + label {
+    color: #f28705 !important;
+  }
+  /* label underline focus color */
+.row .input-field input:focus {
+    border-bottom: 1px solid #f28705 !important;
+    box-shadow: 0 1px 0 0 #f28705 !important
+}
+.input-field .prefix.active {
+    color: #f28705;
+  }
+.formularioFactura row{
+    position: relative;
+    padding: 3%;
 }

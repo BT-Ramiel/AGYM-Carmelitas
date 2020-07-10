@@ -1,12 +1,23 @@
 import React,{Component} from 'react';
 import './Carrito.css';
 import {productos} from './carritoElementos.json'
-
+import Menu from '../menu/Menu'
+import ReactDOM from 'react-dom';
 class Carrito extends Component{
     constructor(){
         super();
         this.state = {
             productos
+        }
+    }
+    componentDidMount(){
+        var btnComprar = document.getElementById('btnComprar');
+        btnComprar.onclick = function () {
+            ReactDOM.render(
+                    <React.StrictMode>
+                    <Menu />
+                </React.StrictMode>,
+        document.getElementById('root'))
         }
     }
     render() {
@@ -25,7 +36,7 @@ class Carrito extends Component{
            <div className="primary">
                 <div className="container-pequeño">
                 <div className="row contenedor">
-                <div className="col s8 fondoComida" id="columna1">
+                <div className="col s12 m8 fondoComida" id="columna1">
                     
                     <h3 className="white-text">Artículos</h3>
                     <div className="bordes">
@@ -34,7 +45,7 @@ class Carrito extends Component{
                         </div>
                     </div>
                 </div>
-                <div className="col s4 white-text fondoNegro" id="columna2">
+                <div className="col s12 m4 white-text fondoNegro" id="columna2">
                     <h5 className="white-text">Información de Pago</h5>
                     <div className="factura">
                         <div className="datosFactura">
@@ -42,22 +53,22 @@ class Carrito extends Component{
                             <p>Iva: C$ XXXXX.XX</p>
                             <p>Total: C$ XXXXXXX.XX</p>
                         </div>
-                        <div className="formularioFactura">
+                        <div className="formularioFactura container">
                         <div class="row">
                             <form class="col s12">
                             <div class="row orange-text text-darken-4">
                                 <div class="input-field col s12">
-                                <i class="material-icons prefix">account_circle</i>
+                                <i class="material-icons prefix iconosForm">account_circle</i>
                                 <input id="icon_prefix" type="text" class="validate"/>
                                 <label for="icon_prefix">First Name</label>
                                 </div>
                                 <div class="input-field col s12">
-                                <i class="material-icons prefix">call</i>
+                                <i class="material-icons prefix iconosForm">call</i>
                                 <input id="icon_telephone" type="tel" class="validate"/>
                                 <label for="icon_telephone">Teléfono</label>
                                 </div>
                                 <div class="input-field col s12">
-                                <i class="material-icons prefix">subtitles</i>
+                                <i class="material-icons prefix iconosForm">subtitles</i>
                                 <input id="icon_prefix" type="text" class="validate"/>
                                 <label for="icon_prefix">Dirección</label>
                                 </div>
@@ -82,7 +93,7 @@ class Carrito extends Component{
                         </div>
                         <div className="row">
                             <div className="col s12">
-                            <a class="btn-large pulse btnComprar">
+                            <a class="btn-large pulse btnComprar" id="btnComprar">
                             <i class="material-icons">check</i>Realizar Compra</a>
                             </div>
                         </div>

@@ -54,16 +54,16 @@ class Inicio extends  Component{
                 </div>
             </div>
             <div className="row">
-                <div className ="col s6">
+                <div className ="col s12 m6">
                     <Producto urlImagen="https://i.ibb.co/RzcZ83T/prod1.jpg" titulo="Café Gourmet molido 1 libra" precio ="C$ 150.00" />
                 </div>
-                <div className ="col s6">
+                <div className ="col s12 m6">
                     <Producto urlImagen="https://i.ibb.co/b1PkxGD/prod2.jpg" titulo="Rosquillas Mixtas Alonda" precio ="C$ 25.00" />
                 </div>
-                <div className ="col s6">
+                <div className ="col s12 m6">
                     <Producto urlImagen="https://i.ibb.co/nkM64ph/prod3.jpg" titulo="Panini Pavo" precio ="C$ 85.00" />
                 </div>
-                <div className ="col s6">
+                <div className ="col s12 m6">
                     <Producto urlImagen="https://i.ibb.co/JFsxYYJ/prod4.jpg" titulo="Green Cool" precio ="C$ 50.00" />
                 </div>
             </div>
