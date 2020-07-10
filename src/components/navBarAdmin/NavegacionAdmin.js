@@ -73,7 +73,7 @@ class NavegacionAdmin extends Component{
                         <li className="elementNav"><a id="navBuzon" href="#">Buzón</a></li>
                         <li className="elementNav"><a id="navProducto" href="#">Producto</a></li>
                         <li className="elementNav"><a id="navSoporte" href="#">Soporte</a></li>
-                        <li className="elementNav navAcceder"><a href="#" id="navRegistro">Volver al Home</a></li>
+                        <li className="elementNav navAcceder"><a href="#" id="navRegistro" className="material-icons">local_cafe</a></li>
                     </ul>
                 </div>
             </nav>

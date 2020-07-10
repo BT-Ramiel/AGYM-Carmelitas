@@ -1,5 +1,5 @@
 .nav-wrapper{
-    background-color: #414346;
+    background-color: #000000;
     color: #ebf2f2;
 }
 div > ul{
@@ -8,6 +8,10 @@ div > ul{
 .elementNav{
     width: 20%;
     text-align: center;
+    transition: background-color 0.5s;
+}
+.elementNav:hover{
+    background-color: #414346;
 }
 .iconoNav{
     margin-top: 20px;
@@ -22,5 +26,5 @@ div > ul{
     color: #f28705;
 }
 .navAcceder a:hover{
-    background-color: #2e2e2f;
+    background-color: #414346;
 }

@@ -15,7 +15,25 @@ class Navegacion extends Component{
         var varContactanos = document.getElementById("navContactanos");
         var varRegistro = document.getElementById("navRegistro");
         var varCarrito = document.getElementById("carrito");
-        varInicio.onclick = function(){
+        varInicio.onclick = irAInicio;
+        varMenu.onclick =irAMenu;
+        varQuienesSomos.onclick  = irAQuienesSomos;
+        varContactanos.onclick = irAContactanos;
+        varRegistro.onclick = irARegistro;
+        varCarrito.onclick = irACarrito;
+        var varInicioM = document.getElementById("navInicioM");
+        var varMenuM = document.getElementById("navMenuM");
+        var varQuienesSomosM = document.getElementById("navQuienesSomosM");
+        var varContactanosM = document.getElementById("navContactanosM");
+        var varRegistroM = document.getElementById("navRegistroM");
+        var varCarritoM = document.getElementById("carritoM");
+        varInicioM.onclick = irAInicio;
+        varMenuM.onclick =irAMenu;
+        varQuienesSomosM.onclick  = irAQuienesSomos;
+        varContactanosM.onclick = irAContactanos;
+        varRegistroM.onclick = irARegistro;
+        varCarritoM.onclick = irACarrito;
+        function irAInicio(){
             ReactDOM.render(
                 <React.StrictMode>
                     <Inicio />
@@ -24,7 +42,8 @@ class Navegacion extends Component{
             );
         };
 
-        varMenu.onclick = function(){
+        
+        function irAMenu(){
             ReactDOM.render(
                 <React.StrictMode>
                     <Menu />
@@ -32,7 +51,8 @@ class Navegacion extends Component{
                 document.getElementById('root')
             );
         };
-        varQuienesSomos.onclick  = function(){
+        
+        function irAQuienesSomos(){
             ReactDOM.render(
                 <React.StrictMode>
                     <QuienesSomos />
@@ -40,7 +60,8 @@ class Navegacion extends Component{
                 document.getElementById('root')
             );
         };
-        varContactanos.onclick = function () {
+        
+        function irAContactanos() {
             ReactDOM.render(
                 <React.StrictMode>
                     <Contactanos />
@@ -48,7 +69,8 @@ class Navegacion extends Component{
                 document.getElementById('root')
             );
         };
-        varRegistro.onclick = function(){
+        
+        function irARegistro(){
             ReactDOM.render(
                 <React.StrictMode>
                     <Registro />
@@ -56,7 +78,8 @@ class Navegacion extends Component{
                 document.getElementById('root')
             );
         }
-        varCarrito.onclick = function () {
+        
+        function irACarrito() {
             ReactDOM.render(
                 <React.StrictMode>
                     <Carrito/>
@@ -68,7 +91,7 @@ class Navegacion extends Component{
     render() {
         return(
             <nav>
-                <div className="nav-wrapper">
+                <div className="nav-wrapper  show-on-large	hide-on-med-and-down">
                     <a href="#" id="carrito" className="material-icons navAcceder right iconoNav">shopping_cart</a>
                     <ul className="navElementos">
                         <li className="elementNav"><a id="navInicio" href="#">Inicio</a></li>
@@ -76,6 +99,16 @@ class Navegacion extends Component{
                         <li className="elementNav"><a id="navQuienesSomos" href="#">¿Quienes somos?</a></li>
                         <li className="elementNav"><a id="navContactanos" href="#">Contactanos</a></li>
                         <li className="elementNav navAcceder"><a href="#" id="navRegistro">Acceder</a></li>
+                    </ul>
+                </div>
+                <div className="nav-wrapper show-on-medium-and-down hide-on-large-only">
+                    <a href="#" id="carritoM" className="material-icons navAcceder right iconoNav">shopping_cart</a>
+                    <ul className="navElementos">
+                        <li className="elementNav"><a id="navInicioM" class="material-icons" href="#">local_cafe</a></li>
+                        <li className="elementNav"><a id="navMenuM" class="material-icons" href="#">dns</a></li>
+                        <li className="elementNav"><a id="navQuienesSomosM" class="material-icons" href="#">pan_tool</a></li>
+                        <li className="elementNav"><a id="navContactanosM" class="material-icons" href="#">local_phone</a></li>
+                        <li className="elementNav navAcceder"><a href="#" class="material-icons" id="navRegistroM">person</a></li>
                     </ul>
                 </div>
             </nav>
