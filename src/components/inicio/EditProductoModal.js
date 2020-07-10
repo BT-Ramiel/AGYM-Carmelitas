@@ -7,6 +7,7 @@ class EditProductoModal extends Component {
         super(props);
     }
     componentDidMount() {
+      M.updateTextFields();
     const options = {
       onOpenStart: () => {
         console.log("Open Start");

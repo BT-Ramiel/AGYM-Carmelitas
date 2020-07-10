@@ -14,7 +14,7 @@ class Mensaje extends Component{
             <div className="collapsible-header">
                 <i className="material-icons">chat</i>
                 <span>{this.props.asunto}</span>   
-                
+                <span class="badge">{this.props.hora}</span>
             </div>
             <div className="collapsible-body">
             
