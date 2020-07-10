@@ -1,0 +1,12 @@
+.listItem{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.imagenModal{
+    width: 100%;
+    height: auto;
+}
+.contenedorModal{
+    margin: 5% !important;
+    width: 100%;
+}
