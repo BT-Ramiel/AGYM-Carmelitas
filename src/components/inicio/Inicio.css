@@ -1,6 +1,9 @@
 .fondoGG{
     background: url('https://i.ibb.co/Xkh8m0M/fondo.jpg');
     padding-top: 20px;
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 .imagenEnMedio{
     border-radius: 30%;
