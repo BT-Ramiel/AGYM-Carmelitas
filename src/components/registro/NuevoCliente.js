@@ -18,9 +18,9 @@ class NuevoCliente extends Component{
     }
 
     render(){
-        const altura = window.innerHeight - 64;
+        
         return(
-            <div className="fondoGG" style={{height:altura +'px'}}>
+            <div className="fondoGG">
             <div className="container">
                 <div className="cuadradoBlanco">
                 <div className="row">
@@ -49,19 +49,19 @@ class NuevoCliente extends Component{
                 </div>
                 </div>
                 <div className="row">
-                <div class="input-field col s12 m4">
+                <div class="input-field col s3">
                 <label>
                     <input class="with-gap" name="sexo" type="radio"  />
                     <span>Soy Hombre</span>
                 </label>
                 </div>
-                <div class="input-field col s12 m4">
+                <div class="input-field col s3">
                 <label>
                     <input class="with-gap" name="sexo" type="radio"  />
                     <span>Soy Mujer</span>
                 </label>
                 </div>
-                <div class="input-field col s12 m4">
+                <div class="input-field col s3">
                 <label>
                     <input class="with-gap" name="sexo" type="radio"  />
                     <span>No quiero decirlo.</span>

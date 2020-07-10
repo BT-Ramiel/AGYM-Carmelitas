@@ -21,7 +21,7 @@ class InicioAdmin extends  Component{
                 <div className="col s12">
                     <h5>Información en el inicio:</h5>
                 </div>
-                <ul class="collection col s6">
+                <ul class="collection col s12 m6">
                     <ProductoAdmin urlImagen="https://i.ibb.co/RzcZ83T/prod1.jpg" titulo="Café Gourmet molido 1 libra" precio ="C$ 150.00" />
 
                     <ProductoAdmin urlImagen="https://i.ibb.co/b1PkxGD/prod2.jpg" titulo="Rosquillas Mixtas Alonda" precio ="C$ 25.00" />
@@ -30,7 +30,7 @@ class InicioAdmin extends  Component{
 
                     <ProductoAdmin urlImagen="https://i.ibb.co/JFsxYYJ/prod4.jpg" titulo="Green Cool" precio ="C$ 50.00" />
                 </ul>
-                <div className="col s6">
+                <div className="col s12 m6">
                 <div className="row">
                     <div className="input-field col s12">
                         <input id="text" type="text" className="validate" value={this.props.titulo}/>

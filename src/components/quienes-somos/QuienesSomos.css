@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     display:flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .parrafo{
@@ -130,4 +131,3 @@
     margin-right: 25%;
     border-radius: 50%;
 }
-

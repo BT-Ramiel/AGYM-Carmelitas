@@ -1,43 +1,44 @@
-.mainContainer{
+.mainContainerContactanos{
     background-image:url('https://i.ibb.co/r4GkQSh/screen-9.jpg');
     background-size:cover;
     background-position: top;
     background-repeat: no-repeat;
     display:flex;
     flex-direction: column;
+    width: 100%;
 }
 
-#contactanos{
+.mainContainerContactanos #contactanos{
     font-size: 25px;
     color: white;
     text-align: center;
     padding-top: 2%;
 }
 
-.material-icons{
+.mainContainerContactanos .material-icons{
     vertical-align: middle;
 }
 
-.input-field{
+.mainContainerContactanos .input-field{
     margin-top: 0;
     margin-left: 30%;
     margin-right: 30%;
     background-color:rgba(255, 255, 255, 0.1);
 }
 
-.input-field label {
+.mainContainerContactanos .input-field label {
     color: rgb(190, 190, 190);
   }
 
-input{
+.mainContainerContactanos input{
     color: white
 }
 
-textarea{
+.mainContainerContactanos textarea{
     color: white
 }
 
-#enviarMensaje{
+.mainContainerContactanos #enviarMensaje{
     color: rgb(0, 0, 0);
     height: 50px;
     background-color: #F28705;
@@ -48,12 +49,12 @@ textarea{
     transition:background_color 0.4s;
 }
 
-#enviarMensaje:hover{
+.mainContainerContactanos #enviarMensaje:hover{
     background-color: #bb6a07;
     margin-top: 3px;
 }
 
-#enviarMensaje:active{
+.mainContainerContactanos #enviarMensaje:active{
     background-color:#311c02;
     color: white;
 }
