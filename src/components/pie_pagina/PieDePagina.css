@@ -1,0 +1,78 @@
+footer{
+    background-color: #a67244 !important;
+}
+
+.tituloConImagen{
+    background: url('https://i.ibb.co/JKhxTM7/footer.png');
+    height: 500px;
+    background-size: 100% 100%;
+}
+.page-footer{
+    padding-top: 0;
+}
+.col{
+    text-align: center;
+}
+.logoFb{
+    
+    background: url('https://i.ibb.co/YQPmVqY/facebook-sketched-logo-variant.png');
+    padding: 5%;
+    
+    background-repeat: no-repeat;
+    background-color: rgb(9, 94, 221);
+    width: 100%;
+    color: black;
+    height: 80px;
+    background-size: 80px 100%;
+    transition: all 0.5s ;
+}
+.logoFb:hover{
+    
+    border: 3px solid #bfcad9;
+}
+.logoIg{
+    
+    background: url('https://i.ibb.co/sHNmDD2/instagram-sketched-logo.png');
+    padding: 5%;
+    
+    background-repeat: no-repeat;
+    background-color: rgb(237, 131, 246);
+    width: 100%;
+    color: black;
+    height: 80px;
+    background-size: 80px 100%;
+    transition: all 0.5s ;
+}
+.logoIg:hover{
+    
+    border: 3px solid #bfcad9;
+}
+.logoTw{
+    
+    background: url('https://i.ibb.co/3pB0N3v/twitter-sketched-logo-outline.png');
+    padding: 5%;
+    
+    background-repeat: no-repeat;
+    background-color: rgb(118, 201, 226);
+    width: 100%;
+    color: black;
+    height: 80px;
+    background-size: 80px 100%;
+    transition: all 0.5s ;
+}
+.logoTw:hover{
+    
+    border: 3px solid #bfcad9;
+}
+.logoCC{
+    border-radius: 25%;
+    transition: all 0.5s;
+}
+.logoCC:hover{
+    border: 3px solid #414346;
+    cursor: pointer;
+}
+.footer-copyright{
+    background: rgb(115,67,39);
+    background: linear-gradient(0deg, rgba(115,67,39,1) 0%, rgba(0,0,0,1) 100%);
+}
