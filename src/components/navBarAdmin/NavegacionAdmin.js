@@ -3,6 +3,9 @@ import './NavegacionAdmin.css';
 import Inicio from '../inicio/Inicio'
 import InicioAdmin from '../inicio/InicioAdmin'
 import NavBar from '../navBar/Navegacion'
+import BuzonAdmin from '../buzon/Buzon'
+import ProductosAdmin  from '../productosAdmin/ProductosAdmin'
+import SoporteAdmin from '../soporteAdmin/SoporteAdmin'
 import ReactDOM from 'react-dom';
 class NavegacionAdmin extends Component{
     componentDidMount(){
@@ -32,6 +35,33 @@ class NavegacionAdmin extends Component{
                 document.getElementById('root')
             )
 
+        }
+        var varBuzonAdmin = document.getElementById('navBuzon');
+        varBuzonAdmin.onclick = function () {
+
+            ReactDOM.render(
+                <React.StrictMode>
+                    <BuzonAdmin />
+                </React.StrictMode>,
+                document.getElementById('root')
+            )
+
+        }
+        var varProductoAdmin = document.getElementById('navProducto');
+        varProductoAdmin.onload = function () {
+            ReactDOM.render(
+                <React.StrictMode>
+                    <ProductosAdmin/>
+                </React.StrictMode>
+            )
+        }
+        var varProductoAdmin = document.getElementById('navProducto');
+        varProductoAdmin.onload = function () {
+            ReactDOM.render(
+                <React.StrictMode>
+                    <SoporteAdmin/>
+                </React.StrictMode>
+            )
         }
     }
     render() {
