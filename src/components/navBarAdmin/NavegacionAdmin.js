@@ -48,19 +48,21 @@ class NavegacionAdmin extends Component{
 
         }
         var varProductoAdmin = document.getElementById('navProducto');
-        varProductoAdmin.onload = function () {
+        varProductoAdmin.onclick = function () {
             ReactDOM.render(
                 <React.StrictMode>
                     <ProductosAdmin/>
-                </React.StrictMode>
+                </React.StrictMode>,
+                document.getElementById('root')
             )
         }
-        var varProductoAdmin = document.getElementById('navProducto');
-        varProductoAdmin.onload = function () {
+        var varSoporteAdmin = document.getElementById('navSoporte');
+        varSoporteAdmin.onclick = function () {
             ReactDOM.render(
                 <React.StrictMode>
                     <SoporteAdmin/>
-                </React.StrictMode>
+                </React.StrictMode>,
+                document.getElementById('root')
             )
         }
     }
