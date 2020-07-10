@@ -9,9 +9,10 @@ class InicioAdmin extends  Component{
     }
 
     render() {
+        
         return(
-            <div id="primary">
-            <div className="fondoGG center-align">
+            <div >
+            <div id="primaryInicioAdmin" className="fondoGG center-align">
             
             <div className="container">
                     <h4 className="texto">Página de Administración</h4>
