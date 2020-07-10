@@ -84,11 +84,10 @@ class Inicio extends  Component{
               <div className="col s12">
                 <h5>Redes Sociales</h5>
               </div>
-              <div id="redesContainer">
-                <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
-                <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
-                <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
-              </div>
+            </div>
+            <div id="redesContainer">
+              <a id="iconFB" className="redesBoton" href="https://www.facebook.com/LasCarmelitasCafe/" target="_blank"></a>
+              <a id="iconIG" className="redesBoton" href="https://www.instagram.com/carmelitas_cafe/" target="_blank"></a>
             </div>
             <div className="col s12">
             <h4>Correo: <a href="mailto::agarciadare@gmail.com">agarciadarce@gmail.com</a></h4>

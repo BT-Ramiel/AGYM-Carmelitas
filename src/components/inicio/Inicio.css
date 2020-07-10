@@ -76,11 +76,42 @@ h2.texto{
 }*/
 
 #redesContainer{
-    position: absolute;
     display:flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: center;
     text-align: center;
+    height:90px;
+}
+
+#redesContainer .redesBoton{
+    margin-right: 15px;
+    margin-left: 15px;
+    height: 90px;
+    width: 90px;   
+    border-radius: 50%;
+    transition:box-shadow 0.3s;
+}
+
+#iconFB{
+    background-image: url("https://i.ibb.co/64T3cHK/FBLOGO.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#iconIG{
+    background-image: url("https://i.ibb.co/Fb8B9dv/instagram-logo1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#iconFB:hover{
+    box-shadow: 0px 0px 21px 19px rgb(4, 20, 255);
+}
+
+#iconIG:hover{
+    box-shadow: 0px 0px 21px 19px rgb(206, 47, 35);
 }
 
 .tituloConImagen{
