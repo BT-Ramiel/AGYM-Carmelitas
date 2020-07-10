@@ -31,61 +31,6 @@ ReactDOM.render(
     </React.StrictMode>,
     document.getElementById('pie-pagina')
 );
-var varInicio = document.getElementById("navInicio");
-var varMenu = document.getElementById("navMenu");
-var varQuienesSomos = document.getElementById("navQuienesSomos");
-var varContactanos = document.getElementById("navContactanos");
-var varRegistro = document.getElementById("navRegistro");
-var varCarrito = document.getElementById("carrito");
-varInicio.onclick = function(){
-    ReactDOM.render(
-        <React.StrictMode>
-            <Inicio />
-        </React.StrictMode>,
-        document.getElementById('root')
-    );
-};
-
-varMenu.onclick = function(){
-    ReactDOM.render(
-        <React.StrictMode>
-            <Menu />
-        </React.StrictMode>,
-        document.getElementById('root')
-    );
-};
-varQuienesSomos.onclick  = function(){
-    ReactDOM.render(
-        <React.StrictMode>
-            <QuienesSomos />
-        </React.StrictMode>,
-        document.getElementById('root')
-    );
-};
-varContactanos.onclick = function () {
-    ReactDOM.render(
-        <React.StrictMode>
-            <Contactanos />
-        </React.StrictMode>,
-        document.getElementById('root')
-    );
-};
-varRegistro.onclick = function(){
-    ReactDOM.render(
-        <React.StrictMode>
-            <Registro />
-        </React.StrictMode>,
-        document.getElementById('root')
-    );
-}
-varCarrito.onclick = function () {
-    ReactDOM.render(
-        <React.StrictMode>
-            <Carrito/>
-        </React.StrictMode>,
-        document.getElementById('root')
-    );
-}
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA

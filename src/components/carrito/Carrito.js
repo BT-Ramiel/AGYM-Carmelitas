@@ -27,7 +27,7 @@ class Carrito extends Component{
 
             <span>({prod.cantidad}) {prod.nombre} - C${prod.precio}</span>
             <span className="btnRemover">
-            <span class="waves-effect waves-light red accent-4 btn-small"><i class="material-icons left">remove_circle</i>Remover</span>
+            <span class="waves-effect waves-light right red accent-4 btn-small"><i class="material-icons left">remove_circle</i>Remover</span>
             </span>
             </div>
             )

@@ -5,6 +5,8 @@ import M from 'materialize-css'
 import Modal from './RecuperarPass'
 import NuevoCliente from "./NuevoCliente";
 import Menu from '../menu/Menu'
+import NavegacionAdmin from "../navBarAdmin/NavegacionAdmin";
+import RegistroAdmin from "./RegistroAdmin";
 import ReactDOM from 'react-dom';
 class Registro extends  Component{
     componentDidMount(){
@@ -30,12 +32,28 @@ class Registro extends  Component{
                 document.getElementById('root')
             )
         }
-        
+        var varRegistroAdmin = document.getElementById('registroAdmin');
+        varRegistroAdmin.onclick = function () {
+            ReactDOM.render(
+                <React.StrictMode>
+                    <NavegacionAdmin />
+                </React.StrictMode>,
+                document.getElementById('navegacion')
+            )
+            ReactDOM.render(
+                <React.StrictMode>
+                    <RegistroAdmin />
+                </React.StrictMode>,
+                document.getElementById('root')
+            )
+
+        }
     }
     render() {
+        const altura = window.innerHeight - 64;
         return(
             // fondo declarado en inicio.css
-            <div className="fondoGG">
+            <div className="fondoGG" style={{height:altura +'px'}}>
             <div className="container">
             <div className="row">
             <div className ="col s12 m6">
@@ -81,15 +99,11 @@ class Registro extends  Component{
                         <button className="btn waves-effect waves-light pulse" type="submit" name="action" id="iniciarSesion">Iniciar Sesión<i className="material-icons right">send</i>
                         </button>
                         </div>
-                        <div id="modal1" className="modal">
-                            <div className="modal-content">
-                            <h4>Modal Header</h4>
-                            <p>A bunch of text</p>
-                            </div>
-                            <div className="modal-footer">
-                            <a href="#!" className="modal-close waves-effect waves-green btn-flat">Agree</a>
-                            </div>
+                        <div className="input-field col s12">
+                        <button className="btn waves-effect waves-light pulse" type="submit" name="action" id="registroAdmin">Iniciar Sesión como Admin<i className="material-icons right">send</i>
+                        </button>
                         </div>
+                        
                     </div>
                     </form>
                     </div>

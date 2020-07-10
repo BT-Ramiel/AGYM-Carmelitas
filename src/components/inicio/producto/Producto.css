@@ -1,13 +1,13 @@
 .imgCardInicio{
-    height: 300px !important;
+    height: 200px !important;
     width: auto !important;
 }
 .card-producto{
     background-color: #734327;
     color: #ebf2f2;
-    transition: border 1s;
+    transition: color 0.5s,background-color 0.5s ;
 }
 .card-producto:hover{
-    border: 1px outset #a67244;
-    
+    color: #734327;
+    background-color: #ebf2f2;
 }

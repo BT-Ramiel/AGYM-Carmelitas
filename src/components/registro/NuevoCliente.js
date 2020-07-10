@@ -15,12 +15,12 @@ class NuevoCliente extends Component{
                 document.getElementById('root')
             )
         };
-        
     }
 
     render(){
+        const altura = window.innerHeight - 64;
         return(
-            <div className="fondoGG">
+            <div className="fondoGG" style={{height:altura +'px'}}>
             <div className="container">
                 <div className="cuadradoBlanco">
                 <div className="row">
