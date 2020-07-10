@@ -38,7 +38,7 @@ class Registro extends  Component{
                     <div className="row">
                         <div className="input-field col s12">
                         <input id="password" type="password" className="validate"/>
-                        <label htmlFor="password">Password</label>
+                        <label htmlFor="password">Contraseña </label>
                         </div>
                     </div>
            

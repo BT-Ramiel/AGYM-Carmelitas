@@ -96,8 +96,8 @@ class Navegacion extends Component{
                     <ul className="navElementos">
                         <li className="elementNav"><a id="navInicio" href="#">Inicio</a></li>
                         <li className="elementNav"><a id="navMenu" href="#">Menú</a></li>
-                        <li className="elementNav"><a id="navQuienesSomos" href="#">¿Quienes somos?</a></li>
-                        <li className="elementNav"><a id="navContactanos" href="#">Contactanos</a></li>
+                        <li className="elementNav"><a id="navQuienesSomos" href="#">¿Quiénes somos?</a></li>
+                        <li className="elementNav"><a id="navContactanos" href="#">Contáctanos</a></li>
                         <li className="elementNav navAcceder"><a href="#" id="navRegistro">Acceder</a></li>
                     </ul>
                 </div>

@@ -5,7 +5,7 @@ import Registro from './Registro'
 import ReactDOM from 'react-dom';
 class NuevoCliente extends Component{
     componentDidMount(){
-
+        M.updateTextFields();
         var btnRegistrarCliente= document.getElementById('registrarCliente');
         btnRegistrarCliente.onclick = function(){
             ReactDOM.render(

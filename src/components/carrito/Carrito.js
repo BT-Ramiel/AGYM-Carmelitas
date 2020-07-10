@@ -61,7 +61,7 @@ class Carrito extends Component{
                                 <div class="input-field col s12">
                                 <i class="material-icons prefix iconosForm">account_circle</i>
                                 <input id="icon_prefix" type="text" class="validate"/>
-                                <label for="icon_prefix">First Name</label>
+                                <label for="icon_prefix">Nombre Completo</label>
                                 </div>
                                 <div class="input-field col s12">
                                 <i class="material-icons prefix iconosForm">call</i>
@@ -73,15 +73,20 @@ class Carrito extends Component{
                                 <input id="icon_prefix" type="text" class="validate"/>
                                 <label for="icon_prefix">Dirección</label>
                                 </div>
-                                <div class="input-field col s8">
+                                <div class="input-field col s12">
                                 <i class="material-icons prefix">credit_card</i>
                                 <input id="icon_prefix" type="text" class="validate"/>
                                 <label for="icon_prefix">Tarjeta</label>
                                 </div>
-                                <div class="input-field col s4">
+                                <div class="input-field col s6">
                                 <i class="material-icons prefix">vpn_key</i>
                                 <input id="icon_prefix" type="text" class="validate"/>
                                 <label for="icon_prefix">CVV</label>
+                                </div>
+                                <div class="input-field col s6">
+                                <i class="material-icons prefix">vpn_key</i>
+                                <input id="icon_prefix" type="text" class="validate"/>
+                                <label for="icon_prefix">FV</label>
                                 </div>
                             </div>
                             </form>

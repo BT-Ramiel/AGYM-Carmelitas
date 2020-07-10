@@ -13,7 +13,7 @@ class Menu extends  Component{
                         <div class="carousel-fixed-item center">
                         </div>
                         <div class="menuitem carousel-item white-text" style={{'background-image': 'url("https://i.ibb.co/K2RYmLN/panini-jamon.jpg")'}} href="#one!">
-                            <p class="white-text" style={{'font-size':28+'px','font-family':'Segoe Print'}}>Panini de jamon</p>
+                            <p class="white-text" style={{'font-size':28+'px','font-family':'Segoe Print'}}>Panini de jamón</p>
                         </div>
                         <div class="menuitem carousel-item white-text" style={{'background-image': 'url("https://i.ibb.co/yNztNvS/panini-pavo.jpg")'}} href="#two!">
                         <p class="white-text" style={{'font-size':28+'px','font-family':'Segoe Print'}}>Panini de pavo</p>
@@ -21,13 +21,13 @@ class Menu extends  Component{
                     </div>
                 </div>
                 <div className="panelDerecho">
-                    <p id='categoria'>Categoria</p>
+                    <p id='categoria'>Categoría</p>
                     <select class="browser-default">
                         <option value="1">Paninis</option>
                         <option value="2">Bebidas heladas</option>
                     </select>
                     <p id='descripcion'>
-                        [Descripcion]
+                        [Descripción]
                     </p>
                     <p id='precio'>
                         C$85.00
