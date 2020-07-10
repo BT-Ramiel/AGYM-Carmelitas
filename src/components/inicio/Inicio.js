@@ -84,14 +84,10 @@ class Inicio extends  Component{
               <div className="col s12">
                 <h5>Redes Sociales</h5>
               </div>
-              <div className="col s4"> 
-              <a href="facebook.com"><div className="logoFb">Síguenos en facebook!</div> </a>
-              </div>
-              <div className="col s4">
-              <a href="instagram.com"><div className="logoIg">Síguenos en Instagram!</div></a>
-              </div>
-              <div className="col s4">
-              <a href="instagram.com"><div className="logoTw">Síguenos en Twitter!</div></a>
+              <div id="redesContainer">
+                <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+                <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+                <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
               </div>
             </div>
             <div className="col s12">
