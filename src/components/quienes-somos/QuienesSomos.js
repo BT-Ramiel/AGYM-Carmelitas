@@ -37,7 +37,7 @@ class QuienesSomos extends  Component{
                         </p>
                     </div>
                     <div id='bottomSide2' style={{'padding-top':alturaForGM+'px', 'margin-top':alturaForDiv+'px'}}>
-                        <a id='logoGM' href="https://www.google.com/maps/search/carmelitas+coffee+shop/@12.1293181,-86.2804735,14z/data=!3m1!4b1" target="_blank">>
+                        <a id='logoGM' href="https://www.google.com/maps/search/carmelitas+coffee+shop/@12.1293181,-86.2804735,14z/data=!3m1!4b1" target="_blank">
                         </a>
                         <p>Buscanos en Google Maps</p>
                     </div>

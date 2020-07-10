@@ -1,0 +1,17 @@
+.menuContainer{
+    display:flex;
+    flex-direction:row;
+}
+
+.panelIzquierdo{
+    background-image:url('https://i.ibb.co/85Qffjw/mesa-madera-fondo-cafeteria-desenfoque-o-interior-restaurante-7188-794.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 80%;
+}
+
+.panelDerecho{
+    background-color: #2c2e30;
+    width: 20%;
+}
