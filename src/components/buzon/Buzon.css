@@ -1,10 +1,15 @@
-.buzonMensajes{
+.listaBuzon{
     margin-left: 5%;
 }
 .marcarCorreo input{
     width: 100px;
     height: 100px;
 }
-.horaChancha{
-    margin-right: 55% !important;
+
+.contenidoMensaje{
+    text-align: justify !important;
+}
+li.cafecito{
+    background-color: #734327;
+    color: #ebf2f2;
 }

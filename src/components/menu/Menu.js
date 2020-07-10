@@ -30,7 +30,7 @@ class Menu extends  Component{
                         [Descripcion]
                     </p>
                     <p id='precio'>
-                        $85.00
+                        C$85.00
                     </p>
                     <label>Disponible</label>
                     <p id='disponible'>
