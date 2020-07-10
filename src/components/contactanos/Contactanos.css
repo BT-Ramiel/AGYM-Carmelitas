@@ -1,0 +1,59 @@
+.mainContainer{
+    background-image:url('https://i.ibb.co/r4GkQSh/screen-9.jpg');
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+}
+
+#contactanos{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.material-icons{
+    vertical-align: middle;
+}
+
+.input-field{
+    margin-top: 0;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color:rgba(255, 255, 255, 0.1);
+}
+
+.input-field label {
+    color: rgb(190, 190, 190);
+  }
+
+input{
+    color: white
+}
+
+textarea{
+    color: white
+}
+
+#enviarMensaje{
+    color: rgb(0, 0, 0);
+    height: 50px;
+    background-color: #F28705;
+    margin-left: 40%;
+    margin-right: 40%;
+    display:flex;
+    justify-content: center;
+    transition:background_color 0.4s;
+}
+
+#enviarMensaje:hover{
+    background-color: #bb6a07;
+    margin-top: 3px;
+}
+
+#enviarMensaje:active{
+    background-color:#311c02;
+    color: white;
+}
